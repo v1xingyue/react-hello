@@ -13,13 +13,12 @@ const Header = (props) => {
 
     setTimeout(() => {
         setCurrentTime(new Date().toISOString())
-    }, 100);
+    }, 1000);
 
 
     return <div style={{ textAlign: 'center' }}>
         <h1>Hello {props.name}</h1>
         <h2>{props.message}</h2>
-        <button>Click Me</button>
         <p>{message}</p>
         <p>{currentTime}</p>
     </div>
