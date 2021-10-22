@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Price from './components/Price'
+import MusicBox from './components/MusicBox'
 import { useState, useEffect } from "react";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <div className="container">
       <Header name={name} />
       <Price price={price} />
+      <MusicBox />
     </div>
   );
 }
